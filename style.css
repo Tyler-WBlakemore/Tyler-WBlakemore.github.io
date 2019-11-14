@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 * {
   margin: 0;
@@ -9,8 +9,16 @@
 
 body {
   overflow-x: hidden;
-  background-color:#5207F2;
-  font-family: 'Inconsolata', monospace;
+  background-color:black;
+  font-family: 'Raleway', monospace;
+}
+
+#canvas {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  z-index: -999;
+  position: fixed;
 }
 
 .menu {
@@ -22,12 +30,12 @@ body {
   float: left;
   padding-right: 30px;
   font-size: 2em;
-  color: #D7F205;
+  color: #white;
   list-style-type: none;
 }
 
 .menu li a {
-  color: #D7F205;
+  color: #white;
   text-decoration: none;
 }
 
@@ -35,7 +43,7 @@ body {
   margin-top: 5vh;
   margin-bottom:2vh;
   color: white;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Open + Sans', none;
 }
 
 h1, p {
@@ -43,7 +51,7 @@ h1, p {
 }
 
 p {
-  font-size: 1.4em;
+  font-size: 2em;
   color: white;
 }
 
@@ -53,18 +61,14 @@ p {
 
 .imgdes {
   color: white;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Raleway', none;
 }
 
 #herelink {
   color: white;
 }
 
-#test {
-  background-color: orange;
-  width:50%;
-}
 
 .description {
-  width:70%;
+  width:50%;
 }
